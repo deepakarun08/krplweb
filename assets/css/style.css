@@ -7996,6 +7996,9 @@ textarea.form-control {
   }
 }
 
+
+
+
 /*-------------------------------------
 IPhone
 --------------------------------------8 Plus */
@@ -8053,6 +8056,16 @@ Ipad Landscape
     background-position: top center !important;
 	
 }
+
+
+@media only screen and (max-width: 1792px) {
+ .page-title {
+    background-size: 100% !important;
+    background-position: center -200px !important;
+  }
+}
+
+
 
 /*----------------------
 Mac Book 16 Inch Portrait
