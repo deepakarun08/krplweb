@@ -7931,6 +7931,15 @@ textarea.form-control {
   color: #cccccc;
 }
 
+/* IPhone X */
+
+@media only screen and (max-width: 375px) {
+  .page-title {
+    background-size: 130% !important;
+    background-position: top center !important;
+  }
+}
+
 
 /* Ipad Pro 11 inches */
 @media only screen and (max-width: 834px) {
@@ -7940,14 +7949,6 @@ textarea.form-control {
   }
 }
 
-/* IPhone X */
-
-@media only screen and (max-width: 375px) {
-  .page-title {
-    background-size: 130% !important;
-    background-position: top center !important;
-  }
-}
 
 /* Mobile Phones and tablets */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
