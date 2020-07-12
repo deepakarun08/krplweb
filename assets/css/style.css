@@ -7989,9 +7989,12 @@ textarea.form-control {
 }
 
 
-
-
-
+@media only screen and (max-width: 2048px) {
+ .page-title {
+    background-size: 100% !important;
+    background-position: center -200px !important;
+  }
+}
 
 /*-------------------------------------
 IPhone
