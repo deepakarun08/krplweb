@@ -7940,6 +7940,14 @@ textarea.form-control {
   }
 }
 
+/* IPhone X */
+
+@media only screen and (max-width: 375px) {
+  .page-title {
+    background-size: 130% !important;
+    background-position: top center !important;
+  }
+}
 
 /* Mobile Phones and tablets */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
