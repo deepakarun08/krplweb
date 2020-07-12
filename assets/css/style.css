@@ -7947,7 +7947,7 @@ textarea.form-control {
 
 @media only screen and (max-width: 375px) {
   .page-title {
-    background-size: 130% !important;
+    background-size: 135% !important;
     background-position: top center !important;
   }
 }
