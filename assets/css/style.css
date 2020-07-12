@@ -7959,19 +7959,21 @@ textarea.form-control {
 
 
 
-/* IPhone 10 */
 
-@media only screen and (max-width: 375px) {
-  .page-title {
-    background-size: 135% !important;
-    background-position: center 50px !important;
-  }
-}
 
 
 /* IPhone 8 Plus */
 @media only screen and (max-width: 414px) {
  .page-title {
+    background-size: 135% !important;
+    background-position: center 50px !important;
+  }
+}
+
+/* IPhone 10 */
+
+@media only screen and (max-width: 375px) {
+  .page-title {
     background-size: 135% !important;
     background-position: center 50px !important;
   }
