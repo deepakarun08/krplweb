@@ -5286,12 +5286,13 @@ textarea.form-control {
 
 .project-item .project__cat {
   background-color: #e84824;
-  position: absolute;
-  z-index: 2;
-  bottom: 0;
-  left: 30px;
-  padding: 4px 7px;
-  border-radius: 3px 3px 0 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    padding: 8px 7px;
+    border-radius: 3px 3px 0 0;
+    width: 100%;
+    text-align: center;
 }
 
 .project-item .project__cat a {
