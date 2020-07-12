@@ -5291,7 +5291,8 @@ textarea.form-control {
   bottom: 0;
   padding: 8px 7px;
   border-radius: 3px 3px 0 0;
-  width:100%
+  width:100%;
+  text-align:center;
 }
 
 .project-item .project__cat a {
