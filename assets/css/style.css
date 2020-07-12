@@ -5395,8 +5395,8 @@ textarea.form-control {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 1px;
-  height: 20px;
+  width: 4px;
+  height: 30px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -5410,8 +5410,8 @@ textarea.form-control {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 20px;
-  height: 1px;
+  width: 30px;
+  height: 4px;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -7933,16 +7933,6 @@ textarea.form-control {
 
 
 
-
-/* Ipad Pro 11 inches */
-@media only screen and (max-width: 834px) {
-  .page-title {
-    background-size: 100% !important;
-    background-position: top center !important;
-  }
-}
-
-
 /* IPhone 10 */
 
 @media only screen and (max-width: 375px) {
@@ -7952,12 +7942,61 @@ textarea.form-control {
   }
 }
 
+
+/* IPhone 8 Plus */
+@media only screen and (max-width: 414px) {
+ .page-title {
+    background-size: 135% !important;
+    background-position: center 50px !important;
+  }
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-width: 834px) 
+  and (max-height: 1194px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	  
+	.page-title {
+    background-size: 100% !important;
+    background-position: center 50px !important;
+  }
+	  
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 834px) 
+  and (max-height: 1194px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	.page-title {
+    background-size: 100% !important;
+    background-position: top center !important;
+	
+}
+
+
+
+
+
+
 /* Mobile Phones and tablets */
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .skills-panel {
     padding: 30px 15px;
   }
 }
+
+
+
+
+
+
+
 
 /*-------------------------
     Google Map
