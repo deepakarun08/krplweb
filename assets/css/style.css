@@ -8015,8 +8015,13 @@ IPhone
 }
 
 
+
+
+
+
+
 /*----------------------
-Portrait
+Ipad Portrait
 -----------------------*/
 @media only screen 
   and (min-width: 834px) 
@@ -8032,7 +8037,7 @@ Portrait
 }
 
 /* --------------------
-Landscape
+Ipad Landscape
 ----------------------*/
 @media only screen 
   and (min-width: 834px) 
@@ -8045,6 +8050,24 @@ Landscape
     background-position: top center !important;
 	
 }
+
+/*----------------------
+Mac Book 16 Inch Portrait
+-----------------------*/
+@media only screen 
+  and (min-width: 1536px)
+  and (max-height: 960px)  
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {	  
+	.page-title {
+    background-size: 100% !important;
+    background-position: center -200px !important;
+  }
+	  
+}
+
+
+
 
 /* -------------------------
 Mobile Phones and tablets 
