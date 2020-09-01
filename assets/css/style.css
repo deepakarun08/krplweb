@@ -95,64 +95,45 @@ img {
 @font-face {
   font-family: "SF Display";
   font-weight: 900;
-  src: url("https://sf.abarba.me/SF-UI-Display-Black.otf");
+  src: url("../fonts/SF-UI-Display-Black.otf");
 }
 
 /** Bold */
 @font-face {
   font-family: "SF Display";
   font-weight: 700;
-  src: url("https://sf.abarba.me/SF-UI-Display-Bold.otf");
+  src: url("../fonts/SF-UI-Display-Bold.otf");
 }
 
 /** Heavy */
 @font-face {
   font-family: "SF Display";
   font-weight: 800;
-  src: url("https://sf.abarba.me/SF-UI-Display-Heavy.otf");
+  src: url("../fonts/SF-UI-Display-Heavy.otf");
 }
 
 /** Light */
 @font-face {
   font-family: "SF Display";
   font-weight: 200;
-  src: url("https://sf.abarba.me/SF-UI-Display-Light.otf");
+  src: url("../fonts/SF-UI-Display-Light.otf");
 }
 
 /** Medium */
 @font-face {
   font-family: "SF Display";
   font-weight: 500;
-  src: url("https://sf.abarba.me/SF-UI-Display-Medium.otf");
+  src: url("../fonts/SF-UI-Display-Medium.otf");
 }
 
 /** Regular */
 @font-face {
   font-family: "SF Display";
   font-weight: 400;
-  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+  src: url("../fonts/SF-UI-Display-Regular.otf");
 }
 
-/** Semibold */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 600;
-  src: url("https://sf.abarba.me/SF-UI-Display-Semibold.otf");
-}
 
-/** Thin */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 300;
-  src: url("https://sf.abarba.me/SF-UI-Display-Thin.otf");
-}
-
-/** Ultralight */
-@font-face {
-  font-family: "SF Display";
-  font-weight: 100;
-  src: url("https://sf.abarba.me/SF-UI-Display-Ultralight.otf");
-}
 
 
 
@@ -1219,7 +1200,7 @@ h6 {
   text-transform: capitalize;
   letter-spacing: -1px;
   word-spacing:3px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
   margin-bottom: 23px;
 }
@@ -1258,7 +1239,7 @@ h6 {
 .heading__subtitle {
   font-size: 14px;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
   color: #e84824;
   display: inline-block;
   margin-bottom: 13px;
@@ -1375,7 +1356,7 @@ h6 {
 
   .heading-3 .heading__title {
     font-size: 29px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 40px;
   }
 
@@ -1395,7 +1376,7 @@ h6 {
 
   .text__link {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
   }
 }
 
@@ -1780,7 +1761,7 @@ h6 {
 
 .btn__video-lg.popup-video .video__btn-title {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 23px;
   text-align: left;
   display: inline-block;
@@ -2143,7 +2124,7 @@ textarea.form-control {
   padding-left: 26px;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 8px;
 }
 
@@ -2930,7 +2911,7 @@ textarea.form-control {
 
 .navbar-modules .dropdown .dropdown-toggle {
   padding-right: 20px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .navbar-modules .dropdown .dropdown-toggle:after {
@@ -3808,7 +3789,7 @@ textarea.form-control {
 .accordion-item .accordion__item-title {
   font-family: "Poppins", sans-serif;
   color: #282828;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   cursor: pointer;
   display: block;
@@ -5324,7 +5305,7 @@ textarea.form-control {
 
 .project-item .project__title {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -5568,7 +5549,7 @@ textarea.form-control {
 /* project single */
 .projects-single .project__single-title {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .mix {
@@ -5791,7 +5772,7 @@ textarea.form-control {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 27px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 21px;
 }
 
@@ -5824,8 +5805,8 @@ textarea.form-control {
 }
 
 .testimonial__thumb {
-  width: 54px;
-  height: 54px;
+  width: 120px;
+  height: 120px;
   border: 2px solid #e84824;
   overflow: hidden;
   border-radius: 50%;
@@ -6245,7 +6226,7 @@ textarea.form-control {
 .blog-item .blog__title {
   font-size: 18px;
   line-height: 27px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 3px;
 }
 
@@ -6319,7 +6300,7 @@ textarea.form-control {
 .blog-single .blog-item .blog__title {
   font-size: 27px;
   line-height: 37px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .blog-single .blog__desc {
@@ -6460,7 +6441,7 @@ textarea.form-control {
 .blog-nav .blog__nav-content h6 {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -6500,7 +6481,7 @@ textarea.form-control {
 .blog-author .blog__author-name {
   font-size: 18px;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 15px;
   color: #ffffff;
 }
@@ -6554,7 +6535,7 @@ textarea.form-control {
 
 .comments-list .comment__item .comment__content .comment__author {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   margin-bottom: 11px;
 }
@@ -7408,7 +7389,7 @@ textarea.form-control {
 .widget-poducts .widget-product-item .widget__product-price {
   font-family: "Poppins", sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*widget posts*/
@@ -7423,7 +7404,7 @@ textarea.form-control {
 .widget-posts .widget-post-item .widget__post-title {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0;
 }
 
@@ -7874,7 +7855,7 @@ textarea.form-control {
 .job-item .job__title {
   font-size: 20px;
   line-height: 28px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 18px;
 }
 
