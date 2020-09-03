@@ -7948,6 +7948,11 @@ textarea.form-control {
   height: 620px;
 }
 
+
+
+
+
+
 /* Medium Size Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #map {
@@ -8023,6 +8028,9 @@ Ipad Portrait
 	  
 }
 
+
+
+
 /* --------------------
 Ipad Landscape
 ----------------------*/
@@ -8076,11 +8084,7 @@ Mobile Phones and tablets
 }
 
 
-@media only screen and (min-width: 540px) and (max-width: 1170px) {
-  .page-title {
-    background-position: center 0px;
-  }
-}
+
 
 
 
