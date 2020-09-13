@@ -7982,6 +7982,12 @@ textarea.form-control {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+ .page-title {
+    background-size: 100% !important;
+    background-position: center -100px !important;
+  }
+}
 
 
 
@@ -8050,7 +8056,7 @@ Ipad Landscape
 @media only screen and (max-width: 1792px) {
  .page-title {
     background-size: 100% !important;
-    background-position: center -200px !important;
+    background-position: center -100px !important;
   }
 }
 
