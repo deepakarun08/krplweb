@@ -5432,7 +5432,7 @@ textarea.form-control {
 }
 
 .project-item:hover .zoom__icon {
-  opacity: 1;
+  opacity: .5;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -7241,6 +7241,12 @@ textarea.form-control {
   }
 }
 
+
+.product-table{width:100%;}
+
+.product-table th {background:#e84824; color:#FFFFFF; padding:10px; text-align:center}
+.product-table td {color:#212121; padding:10px; border-bottom: 1px solid #e84824; text-align:center }
+
 /*--------------------
     Sidebar
 ----------------------*/
@@ -7778,6 +7784,10 @@ textarea.form-control {
 .banner-3 .counter-item {
   margin-bottom: 50px;
 }
+
+
+
+
 
 @media only screen and (min-width: 1400px) {
   .banner-1 .inner-padding {
