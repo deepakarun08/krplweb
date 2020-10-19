@@ -5806,6 +5806,7 @@ textarea.form-control {
   font-size: 12px;
   color: #616161;
   margin-bottom: 0;
+  text-align:center;
 }
 
 .testimonial__thumb {
@@ -7992,7 +7993,7 @@ textarea.form-control {
 @media only screen and (max-width: 2048px) {
  .page-title {
     background-size: 100% !important;
-    background-position: center -200px !important;
+    background-position: center -150px !important;
   }
 }
 
@@ -8086,7 +8087,7 @@ Mac Book 16 Inch Portrait
   and (-webkit-min-device-pixel-ratio: 2) {	  
 	.page-title {
     background-size: 100% !important;
-    background-position: center -200px !important;
+    background-position: center -150px !important;
   }
 	  
 }
